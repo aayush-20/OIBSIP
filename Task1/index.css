@@ -1,0 +1,95 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/471442229/photo/temperatures.jpg?s=612x612&w=0&k=20&c=m4aVGMZzL3b3hu3rzeFRywVw9bcYT3rtWETIS0ri4Q0=");
+  background-repeat: repeat;
+  background-size: auto 209%;
+}
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: darkblue;
+}
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(98, 241, 69);
+  margin: auto auto;
+  font-size: x-large;
+  padding: 10px 10px;
+  border: 1mm solid rgb(94, 91, 238);
+  border-radius: 10%;
+  background-image: url('https://wallpaperset.com/w/full/3/1/9/31130.jpg');
+  ;
+}
+label {
+  font-weight: bold;
+  display: block;
+  font-size: 30px;
+  margin: auto auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+input[type="number"] {
+  color: rgb(4, 15, 12);
+  display: block;
+  margin-left: 25px;
+  font-size: 20px;
+}
+/* Below code is UnEdited */
+#unitFrom {
+  background-color: dodgerblue;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+#unitTo {
+    background-color: dodgerblue;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 20px;
+
+  margin-left: 40px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+#result {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Background color with transparency */
+  padding: 10px;
+  border: 1mm solid rgb(91, 162, 253);
+  border-radius: 10%;
+  margin: 20px auto;
+  display: none;
+}
+
+button {
+  background-color:skyblue;
+  display: block;
+  margin: auto auto;
+  margin-top: 20px;
+  height: 40px;
+  width: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 14px;
+
+}
+button:hover{
+    transform: scale(1.1);
+    border: 0.5mm solid darkblue;
+    border-radius: 5%;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
